@@ -11,9 +11,6 @@
 ## Estrutura
 
 - `e2e`: Testes automatizados
-- `pages/index.js`: Ações/Comportamento da Página (Abstração)
-- `pages/elements.js`: Elementos/Seletores da Página (Abstração)
-- `screenshots`: Screenshots dos testes
 - `.github/workflows/`: Configuração do CI
 
 ## Requisitos
