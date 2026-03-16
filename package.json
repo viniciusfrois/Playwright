@@ -1,0 +1,23 @@
+{
+  "name": "playwrightci",
+  "version": "1.0.0",
+  "description": "- Projeto para aprender teste automatizados com Playwright, além de integração com CI do GitHub Actions.\r - Utilizando o site: https://www.saucedemo.com/ para realização dos testes (Login e adicionar remover itens do carrinho)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusfrois/Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/viniciusfrois/Playwright/issues"
+  },
+  "homepage": "https://github.com/viniciusfrois/Playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  }
+}
