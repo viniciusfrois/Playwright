@@ -10,8 +10,7 @@ test('Login com credenciais inválidas', async ({ page }) => {
   await login.login('invalid_user', 'invalid_password');
 
   // Assert
-  await expect(login.getErrorMessage())
-    .toContainText('Epic sadface');
+  await expect(login.getErrorMessage()).toContainText('Epic sadface');
 });
 
 test('Login com credenciais válidas', async ({ page }) => {
