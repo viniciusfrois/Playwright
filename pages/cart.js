@@ -1,9 +1,12 @@
 export class Cart {
+
     constructor(page) {
         this.page = page;
+        
         // URL da página
         this.url = 'https://www.saucedemo.com/inventory.html';
-        // locators
+       
+        // locators dos elementos da página
         this.addItems = '[data-test="add-to-cart-{item}"]';
         this.removeItems = '[data-test="remove-{item}"]';
     }
